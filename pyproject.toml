@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "syengohelloworldpackage"
+version = "0.1.0"
+description = "This is a simple python package conatining a hello_world function to test skills in python package publishing."
+authors = ["David Syengo <david.syengo019@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
